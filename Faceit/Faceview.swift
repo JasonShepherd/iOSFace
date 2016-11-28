@@ -12,17 +12,17 @@ import UIKit
 class Faceview: UIView {
     
     @IBInspectable
-    var scale: CGFloat = 0.90
+    var scale: CGFloat = 0.90{ didSet { setNeedsDisplay() } }
     @IBInspectable
-    var mouthCurvature: Double = 1.0
+    var mouthCurvature: Double = 1.0{ didSet { setNeedsDisplay() } }
     @IBInspectable
-    var eyesOpen: Bool = true
+    var eyesOpen: Bool = true{ didSet { setNeedsDisplay() } }
     @IBInspectable
-    var eyeBrowTilt: Double = 0.0
+    var eyeBrowTilt: Double = 0.0{ didSet { setNeedsDisplay() } }
     @IBInspectable
-    var color: UIColor = UIColor.blue
+    var color: UIColor = UIColor.blue{ didSet { setNeedsDisplay() } }
     @IBInspectable
-    var lineWidth: CGFloat = 5.0
+    var lineWidth: CGFloat = 5.0{ didSet { setNeedsDisplay() } }
     
     
     private var headRadius: CGFloat{
