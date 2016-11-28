@@ -107,6 +107,7 @@
 				TargetAttributes = {
 					14EB9BB51DEB2C93004F628B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MV849Z9VUB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV849Z9VUB;
 				INFOPLIST_FILE = Faceit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jshep.Faceit;
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV849Z9VUB;
 				INFOPLIST_FILE = Faceit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jshep.Faceit;
