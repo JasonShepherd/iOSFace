@@ -26,7 +26,7 @@ struct FacialExpression{
         return EyeBrows(rawValue: -1) ?? .Relaxed
     }
     
-    
+     
     func moreFurrowedBrow() ->EyeBrows {
         return EyeBrows(rawValue: +1) ?? .Furrowed
     }

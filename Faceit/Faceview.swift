@@ -56,7 +56,7 @@ class Faceview: UIView {
         case.Right: eyeCenter.x += eyeOffset
         }
         return eyeCenter
-    }
+    } 
     
     private func pathforEye(eye: Eye)->UIBezierPath
     {
