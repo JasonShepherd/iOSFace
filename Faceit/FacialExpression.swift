@@ -12,7 +12,7 @@ struct FacialExpression{
     
     enum Eyes: Int{
         case Open
-        case closed
+        case Closed
         case Squinting
     }
     
@@ -37,7 +37,7 @@ struct FacialExpression{
         case Smirk
         case Neutral
         case Grin
-        case mile
+        case Smile
         
     }
     func sadderMouth() ->Mouth{
