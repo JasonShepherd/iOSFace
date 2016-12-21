@@ -24,7 +24,16 @@ class Faceview: UIView {
     @IBInspectable
     var lineWidth: CGFloat = 5.0{ didSet { setNeedsDisplay() } }
     
-    
+    func changeScale(recognizer: UIPinchGestureRecognizer){
+        switch recognizer.state {
+        case .changed, .ended :
+            scale *= recognizer.scale
+            recognizer.scale = 1.0
+            
+        default:
+            break
+        }
+    }
     private var headRadius: CGFloat{
         
         return   min(bounds.size.width,bounds.size.height) / 2
